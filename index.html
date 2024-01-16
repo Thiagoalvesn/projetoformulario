@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de fomulário</title>
+    <link rel="stylesheet" href="style.css" media="all">
+
 </head>
 <body>
     <main>
-        <section>
+        <section id="formulario"> 
+           <form action="cadrasto.php" method="post" autocomplete="on" >
             <div>
-                Login
+                <label for="ilogin">Login:</label>
+                <input type="email" name="email" id="ilogin" minlength="3" placeholder="digite seu email">
             </div>
+        </form>
         </section>
 
-        <section>
+        <section id="segurança">
             <div>
-                senha
+                <label for="isenha ">senha:</label >
+                <input type="password" name="senha" id="'isenha" minlength="8" placeholder="digite sua senha">
             </div>
         </section>
+    <button>Entrar</button>
+
     </main>
 </body>
 </html>
