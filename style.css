@@ -35,16 +35,18 @@ main{
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 450px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 }
 
 #imagem{
     display: block;
-    background: #1e777e url("imagens/formulario.png");
+    background:url("imagens/formulario.png");
+    background-position: center center;
     height: 200px;
     background-size: cover;
+    
 }
 
 #formulario{
